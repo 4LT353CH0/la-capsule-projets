@@ -1,0 +1,23 @@
+// variables
+//
+// ----colors----
+//
+$black: #000;
+$white: #fff;
+$gray : #353a3f;
+$lightgray : #e0e0e0;
+$cta : #2f91aa;
+//
+// ----columns fopr grid system----
+//
+// > staging the breakpoints
+// http://screensiz.es/
+// https://viewportsizes.com/
+$media-one:"only screen and (min-width: 48em)"; // 768 - ipad portait / phones
+$media-two:"only screen and (min-width: 80em)"; // 1280 - tablets / phoneslaptops
+//
+// ----sizes----
+//
+$size:  0.625em; // 10px
+$space: $size;
+// variables

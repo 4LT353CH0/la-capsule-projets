@@ -1,0 +1,27 @@
+/*Allow special characters in CSS*/
+@charset "utf-8";
+//
+// Compiling styles
+//
+//
+// 0 - componants
+@import '0-componants/variables';
+@import '0-componants/colors';
+//
+// 1 - atoms
+//
+// 2 - grids
+@import '2-grids/css-grid';
+// 3 - molecules
+//   
+// 4 - modules
+@import '4-modules/navblock';
+@import '4-modules/listblock';
+@import '4-modules/formblock'; 
+// 5 - templates
+@import '5-templates/pageblock';
+// 6 - for visual development only
+// @import '6-apprentissage/development';,
+@import '6-apprentissage/bikeshop';
+
+
