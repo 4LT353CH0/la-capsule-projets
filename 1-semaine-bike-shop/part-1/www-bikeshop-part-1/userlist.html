@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="no-js pageblock" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>MyMails exercice 2 - JS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="scss/styles.css">
+    <meta name="theme-color" content="#fafafa">
+    <script src="js/main-exercice-min.js"></script>
+</head>
+
+<body class="pageblock">
+    <header class="pageblock__item pageblock__item--header ">
+        <nav class="navblock">
+            <li class="navblock__item"><a class="navblock__link" href="index.html">Home</a></li>
+            <li class="navblock__item"><a class="navblock__link" href="userlist.html">MyMails exercice 2 - 3</a></li>
+            <li class="navblock__item"><a class="navblock__link" href="#">Home</a></li>
+            <li class="navblock__item"><a class="navblock__link" href="#">Home</a></li>
+            <li class="navblock__item"><a class="navblock__link" href="#">Home</a></li>
+            <li class="navblock__item"><a class="navblock__link" href="#">Home</a></li>
+        </nav>
+    </header>
+    <section class="pageblock__item">
+        <h3>Formulaire</h3>
+        <h4>Ajoutez votre Nom et prénom</h4>
+        <div class="alert"></div>
+        <form action="#" class="form">
+            <label for="nom" class="form__item form__item--label">
+               <span>Nom</span>
+                <input name="nom" type="text" class="form__item form__item--input" id="nom">
+            </label>
+            <label name="prenom" for="prenom" class="form__item form__item--label">
+               <span>Prénom</span>
+                <input name="prenom" type="text" class="form__item form__item--input" id="prenom">
+            </label>
+            <button class="form__item form__item--button">Add ></button>
+        </form>
+    </section>
+    <main class="pageblock__item pageblock__item--main-section">
+        <h3>Messages des utilisateurs</h3>
+        <div class="wrap">
+            <div class="messages">Messages total : <strong class="messages__count">1</strong></div>
+            <div class="cards">
+                <article class="card">
+                    <img src="img/avatar-1.jpg" alt="avatar" class="card__item card__item--avatar">
+                    <div class="card__item card__item--user-details">
+                        <h3 class="card__item--user-name">
+                            <span>User 1</span>
+                            <span>Nom</span>
+                        </h3>
+                        <p class="card__item--user-comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quidem, dignissimos praesentium atque harum alias, fugiat. Ab corporis, magnam cupiditate, delectus, quae labore architecto tempora sed porro dolorem sapiente. Sint.</p>
+
+                    </div>
+                    <img src="img/trash.png" alt="trash" class="card__item card__item--delete one" title="Delete this message">
+                </article>
+                <article class="card">
+                    <img src="img/avatar-2.jpg" alt="avatar" class="card__item card__item--avatar">
+                    <div class="card__item card__item--user-details">
+                        <h3 class="card__item--user-name">
+                            <span>User 2</span>
+                            <span>Nom</span>
+                        </h3>
+                        <p class="card__item--user-comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quidem, dignissimos praesentium atque harum alias, fugiat. Ab corporis, magnam cupiditate, delectus, quae labore architecto tempora sed porro dolorem sapiente. Sint.</p>
+
+                    </div>
+                    <img src="img/trash.png" alt="trash" class="card__item card__item--delete two" title="Delete this message">
+                </article>
+                <article class="card">
+                    <img src="img/avatar-3.jpg" alt="avatar" class="card__item card__item--avatar">
+                    <div class="card__item card__item--user-details">
+                        <h3 class="card__item--user-name">
+                            <span>User 3</span>
+                            <span>Nom</span>
+                        </h3>
+                        <p class="card__item--user-comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quidem, dignissimos praesentium atque harum alias, fugiat. Ab corporis, magnam cupiditate, delectus, quae labore architecto tempora sed porro dolorem sapiente. Sint.</p>
+
+                    </div>
+                    <img src="img/trash.png" alt="trash" class="card__item card__item--delete three" title="Delete this message">
+                </article>
+                <article class="card">
+                    <img src="img/avatar-4.jpg" alt="avatar" class="card__item card__item--avatar">
+                    <div class="card__item card__item--user-details">
+                        <h3 class="card__item--user-name">
+                            <span>User 4</span>
+                            <span>Nom</span>
+                        </h3>
+                        <p class="card__item--user-comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quidem, dignissimos praesentium atque harum alias, fugiat. Ab corporis, magnam cupiditate, delectus, quae labore architecto tempora sed porro dolorem sapiente. Sint.</p>
+
+                    </div>
+                    <img src="img/trash.png" alt="trash" class="card__item card__item--delete four" title="Delete this message">
+                </article>
+                <article class="card">
+                    <img src="img/avatar-5.jpg" alt="avatar" class="card__item card__item--avatar">
+                    <div class="card__item card__item--user-details">
+                        <h3 class="card__item--user-name">
+                            <span>User 5</span>
+                            <span>Nom</span>
+                        </h3>
+                        <p class="card__item--user-comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quidem, dignissimos praesentium atque harum alias, fugiat. Ab corporis, magnam cupiditate, delectus, quae labore architecto tempora sed porro dolorem sapiente. Sint.</p>
+
+                    </div>
+                    <img src="img/trash.png" alt="trash" class="card__item card__item--delete five" title="Delete this message">
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer class="pageblock__item pageblock__item--footer"></footer>
+
+
+</body>
+
+</html>
