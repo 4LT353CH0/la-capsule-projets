@@ -25,15 +25,143 @@
 		"oAP": "/browserconfig.xml",
 		"oF": 0
 		},
-	"/css/styles.css": {
+	"/build/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/styles-min.css",
+		"oAP": "/build/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/build/img/bike-1.jpg": {
+		"ft": 16384,
+		"iS": 25856,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bike-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bike-2.jpg": {
+		"ft": 16384,
+		"iS": 31149,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bike-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bike-3.jpg": {
+		"ft": 16384,
+		"iS": 24468,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bike-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bike-4.jpg": {
+		"ft": 16384,
+		"iS": 27213,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bike-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bike-5.jpg": {
+		"ft": 16384,
+		"iS": 30142,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bike-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bike-6.jpg": {
+		"ft": 16384,
+		"iS": 29564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bike-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bike-background.jpg": {
+		"ft": 16384,
+		"iS": 1303405,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/bike-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bike-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/bike-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/index.html",
+		"oF": 0
+		},
+	"/build/js/main.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/build/js/main-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/build/js/vendor/jquery-3.4.1.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/vendor/jquery-3.4.1.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/build/js/vendor/modernizr-3.7.1.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/vendor/modernizr-3.7.1.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/doc/css.md": {
 		"cB": 0,
@@ -220,122 +348,102 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/img/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
-	"/img/avatar-1.jpg": {
+	"/img/bike-1.jpg": {
 		"ft": 16384,
-		"iS": 33993,
+		"iS": 25856,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/avatar-1.jpg",
-		"oF": 0,
+		"oAP": "/img/bike-1.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/img/avatar-2.jpg": {
+	"/img/bike-2.jpg": {
 		"ft": 16384,
-		"iS": 36582,
+		"iS": 31149,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/avatar-2.jpg",
-		"oF": 0,
+		"oAP": "/img/bike-2.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/img/avatar-3.jpg": {
+	"/img/bike-3.jpg": {
 		"ft": 16384,
-		"iS": 40405,
+		"iS": 24468,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/avatar-3.jpg",
-		"oF": 0,
+		"oAP": "/img/bike-3.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/img/avatar-4.jpg": {
+	"/img/bike-4.jpg": {
 		"ft": 16384,
-		"iS": 43402,
+		"iS": 27213,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/avatar-4.jpg",
-		"oF": 0,
+		"oAP": "/img/bike-4.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/img/avatar-5.jpg": {
+	"/img/bike-5.jpg": {
 		"ft": 16384,
-		"iS": 36574,
+		"iS": 30142,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/avatar-5.jpg",
-		"oF": 0,
+		"oAP": "/img/bike-5.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/img/trash.png": {
-		"ft": 32768,
-		"iS": 18139,
+	"/img/bike-6.jpg": {
+		"ft": 16384,
+		"iS": 29564,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/trash.png",
-		"oF": 0,
+		"oAP": "/img/bike-6.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"/index-dev.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/img/bike-background.jpg": {
+		"ft": 16384,
+		"iS": 1303405,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 3
+		"oAP": "/img/bike-background.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/bike-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/bike-logo.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/js/main-exercice-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/main-exercice-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/main-exercice.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/main-exercice-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/main-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/main-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
+		"oAP": "/build/index.html",
+		"oF": 3
 		},
 	"/js/main.js": {
 		"bF": 0,
@@ -343,42 +451,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/main-min.js",
-		"oF": 0,
+		"oAP": "/build/js/main.js",
+		"oF": 2,
 		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/vendor/jquery-3.4.1.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/vendor/jquery-3.4.1.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/vendor/modernizr-3.7.1.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/vendor/modernizr-3.7.1.min-min.js",
-		"oF": 0,
-		"sC": 3,
 		"tS": 0
 		},
 	"/LICENSE.txt": {
@@ -405,9 +480,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/4-modules/_formblock.css",
+		"oAP": "/css/_formblock.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"/scss/4-modules/_listblock.scss": {
@@ -418,9 +493,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/4-modules/_listblock.css",
+		"oAP": "/css/_listblock.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"/scss/4-modules/_navblock.scss": {
@@ -431,9 +506,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/4-modules/_navblock.css",
+		"oAP": "/css/_navblock.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"/scss/5-templates/_pageblock.scss": {
@@ -444,20 +519,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/5-templates/_pageblock.css",
+		"oAP": "/css/_pageblock.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
-		},
-	"/scss/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/styles-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"/scss/styles.scss": {
 		"aP": 0,
@@ -467,22 +532,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/styles.css",
-		"oF": 3,
+		"oAP": "/build/css/styles.css",
+		"oF": 2,
 		"oS": 3,
-		"uL": 1
-		},
-	"/scss/xx-exos/_styles-exercices-MyMail-2-js.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/xx-exos/_styles-exercices-MyMail-2-js.css",
-		"oF": 0,
-		"oS": 0,
 		"uL": 1
 		},
 	"/site.webmanifest": {
@@ -492,6 +544,148 @@
 		"oA": 0,
 		"oAP": "/site.webmanifest",
 		"oF": 0
+		},
+	"/sources/BikeShop - Assets/bike-1.jpg": {
+		"ft": 16384,
+		"iS": 25856,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/bike-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/bike-2.jpg": {
+		"ft": 16384,
+		"iS": 31149,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/bike-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/bike-3.jpg": {
+		"ft": 16384,
+		"iS": 24468,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/bike-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/bike-4.jpg": {
+		"ft": 16384,
+		"iS": 27213,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/bike-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/bike-5.jpg": {
+		"ft": 16384,
+		"iS": 30142,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/bike-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/bike-6.jpg": {
+		"ft": 16384,
+		"iS": 29564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/bike-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/bike-background.jpg": {
+		"ft": 16384,
+		"iS": 1303405,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/bike-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/bike-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/sources/BikeShop - Assets/bike-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/sources/BikeShop - Assets/maquette1.png": {
+		"ft": 32768,
+		"iS": 2802774,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/maquette1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/maquette2.png": {
+		"ft": 32768,
+		"iS": 1536201,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/maquette2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/maquette3.png": {
+		"ft": 32768,
+		"iS": 925572,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/maquette3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/maquette4.png": {
+		"ft": 32768,
+		"iS": 362769,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/maquette4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/sources/BikeShop - Assets/maquette5.png": {
+		"ft": 32768,
+		"iS": 264411,
+		"oA": 0,
+		"oAP": "/sources/BikeShop - Assets/maquette5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/tile-wide.png": {
 		"ft": 32768,
@@ -514,14 +708,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/userlist.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/userlist.html",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -2509,11 +2695,11 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
