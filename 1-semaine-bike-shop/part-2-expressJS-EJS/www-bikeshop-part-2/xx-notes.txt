@@ -1,0 +1,18 @@
+----___----____----
+Liens
+
+> https://ejs.co/ 
+> https://expressjs.com/fr/
+----___----____----
+----___----____----
+Explication dossiers
+
+> routes/index.js
+> routes/users.js
+// 
+> views/index.js
+> views/users.js
+// EJS est un moteur de template pour page web. Il sert à rendre les pages HTML dynamiques. Contrairement au HTML statique, EJS permet de prévoir en amont des parties dans la page qui seront dynamiques et qui dépendent de la réponse renvoyée par le serveur au client.
+----___----____----
+
+

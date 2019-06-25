@@ -1,0 +1,7 @@
+Notes 
+
+## pourquoi les euros pas posssible dans l'ARRAY? > mélanger integer et string? c ça le pb?
+## Why not browser sync in this folder?
+## Restart browser est très chiiiééange
+## What did go wrong?   > totalCmd = dataCardBike[j].quantity * dataCardBike[j].pu;
+## . why second loop is 0?

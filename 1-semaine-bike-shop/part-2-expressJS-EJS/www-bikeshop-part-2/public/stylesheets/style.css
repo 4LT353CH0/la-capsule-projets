@@ -24,7 +24,7 @@ h1 {
 
 #shop-background {
   height: 150px;
-  background-image: url('bike-background.jpg');
+  background-image: url('../images/bike-background.jpg');
   background-size: cover;
   background-position: center;
   margin-bottom: 30px;
