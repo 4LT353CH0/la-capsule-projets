@@ -1,0 +1,84 @@
+/*
+> https://learncssgrid.com/
+*/
+// variables
+$black: #000;
+$space: 10px;
+$space-full: 100%; 
+$total-columns:12;
+$col-1: ($space-full / $total-columns) * 1;
+$col-2: ($space-full / $total-columns) * 2;
+$col-3: ($space-full / $total-columns) * 3;
+$col-4: ($space-full / $total-columns) * 4;
+$col-5: ($space-full / $total-columns) * 5;
+$col-6: ($space-full / $total-columns) * 6;
+$col-7: ($space-full / $total-columns) * 7;
+$col-8: ($space-full / $total-columns) * 8;
+$col-9: ($space-full / $total-columns) * 9;
+$col-10: ($space-full / $total-columns) * 10;
+$col-11: ($space-full / $total-columns) * 11;
+$col-12: ($space-full / $total-columns) * 12;
+
+// phony stiles
+body {
+    margin: 0;
+    & * {
+        box-sizing: border-box;
+    }
+}
+
+
+
+.grid {
+    // the grid standard 4 columns
+    margin: $space;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: $space;
+    border: 1px lighten($black, 80%) solid;
+    padding: $space;
+
+    &__item {
+        .innergrid {
+            padding: $space;
+            background: lighten($black, 85%);
+            border:1px lighten($black, 75%) solid;
+            &__item {
+                background: lighten($black, 90%);
+                border: 1px lighten($black, 80%) solid;
+                padding: $space;
+            }
+        }
+    }
+
+    &--sidebarleft-col-1 {
+        grid-template-columns: $col-1 1fr;
+    }
+    &--sidebarleft-col-2 {
+        grid-template-columns: $col-2 1fr;
+    }
+    &--sidebarleft-col-3 {
+        grid-template-columns: $col-3 1fr;
+    }
+    &--sidebarleft-col-4 {
+        grid-template-columns: $col-4 1fr;
+    }
+    &--sidebarleft-col-5 {
+        grid-template-columns: $col-5 1fr;
+    }
+    &--sidebarleft-col-6 {
+        grid-template-columns: $col-6 1fr;
+    }
+    &--sidebarleft-col-7 {
+        grid-template-columns: $col-7 1fr;
+    }
+    &--sidebarleft-col-8 {
+        grid-template-columns: $col-8 1fr;
+    }
+    &--sidebarleft-col-9 {
+        grid-template-columns: $col-9 1fr;
+    }
+    &--sidebarleft-col-10 {
+        grid-template-columns: $col-10 1fr;
+    }
+}
