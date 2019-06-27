@@ -4,33 +4,33 @@ var router = express.Router();
 var databike = [
     {
         model: 'Model BIKO45',
-        price: 679,
+        pu: 679,
         img: 'images/bike-1.jpg',
-        
+
     },
     {
         model: 'Model ZOOK7',
-        price: 799,
+        pu: 799,
         img: 'images/bike-2.jpg'
     },
     {
         model: 'Model LIKO89',
-        price: 839,
+        pu: 839,
         img: 'images/bike-3.jpg'
     },
     {
         model: 'Model GEWO',
-        price: 1206,
+        pu: 1206,
         img: 'images/bike-4.jpg'
     },
     {
         model: 'Model TITAN5',
-        price: 989,
+        pu: 989,
         img: 'images/bike-5.jpg'
     },
     {
         model: 'Model AMIG39',
-        price: 599,
+        pu: 599,
         img: 'images/bike-6.jpg'
     }
 ]
@@ -39,20 +39,19 @@ var databike = [
 // objet [dataCardBike] le tableau d'objets SHOP
 var dataCardBike = [
 //    {
-//        img: null,
-//        model: null,
-//        quantity: null,
-//        pu: null
-//    }, 
+//        img: 'images/bike-1.jpg',
+//        model: 'Model BIKO45',
+//        quantity: 2,
+//        pu: 679
+//    },
 //    {
-//        img: null,
-//        model: null,
-//        quantity: null,
-//        pu: null
+//        img: 'images/bike-2.jpg',
+//        model: 'Model ZOOK7',
+//        quantity: 3,
+//        pu: 799
 //    }
 ]
-//var pu = dataCardBike
-//var totalCmd = 
+
 
 
 /* GET index page. */
@@ -74,6 +73,24 @@ router.get('/shop', function (req, res, next) {
         dataCardBike
     });
 });
+
+/* POST bikes to shop page. */
+router.post("/shop", function (req, res, next) {
+    console.log(req.body);
+    // console.log( dataCardBike[0]);
+    dataCardBike.push(req.body);
+    res.render('shop', {
+        dataCardBike
+    });
+});
+
+/* DELETE Bike object from shop page. */
+router.get('/shop', function (req, res, next) {
+    res.render('shop', {
+        dataCardBike
+    });
+});
+
 module.exports = router;
 
 // browser-sync start --server --files "**/*.html, **/*.css, **/*.js"

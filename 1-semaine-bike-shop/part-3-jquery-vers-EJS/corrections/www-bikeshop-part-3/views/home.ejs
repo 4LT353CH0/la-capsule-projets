@@ -35,26 +35,34 @@
             </a>
         </div>
         <div class="row">
-        <!-- These size tools are provided by Bootstrap. It enables the auto resizing of the elements relatively to the size of the screen -->
+            <!-- These size tools are provided by Bootstrap. It enables the auto resizing of the elements relatively to the size of the screen -->
 
-        <% for(var i = 0; i < databike.length; i++){ %>
-        <div class="col-12 col-sm-6 col-md-4 bike-card">
-            <div class="card text-center">
-                <img class="card-img-top" src="<%= databike[i].img %>">
-                <div class="card-body">
-                    <h5 class="card-title"><%= databike[i].model %></h5>
-                    <span class="shop-price"><%= databike[i].price %> € </span>
-                    <a href="shop" class="btn btn-outline-info btn-sm">Buy</a>
+            <% for(var i = 0; i < databike.length; i++){ %>
+            <div class="col-12 col-sm-6 col-md-4 bike-card">
+                <div class="card text-center">
+                    <form action="/shop" method="post" class="input-pu">
+                        <img class="card-img-top" src="<%= databike[i].img %>">
+                        <div class="card-body row">
+                            <h5 class="card-title col-6"><%= databike[i].model %></h5>
+                            <span class="shop-price col-6"><%= databike[i].pu %> €</span>
+                            <form action="/shop" method="post">
+                                    <input type="text" name="img" value="<%= databike[i].img %>" hidden>
+                                    <input type="text" name="model" value="<%= databike[i].model %>" hidden>
+                                    <input type="text" name="pu" value="<%= databike[i].pu %>" hidden>
+                                    <input type="text" name="quantity" value="1" hidden>
+                                <input type="submit" value="buy" class="btn btn-outline-info btn-sm">
+                            </form>
+                        </div>
+                    </form>
                 </div>
             </div>
+
+            <% } %>
+
+            
+
+
         </div>
-
-        <% } %>
-
-
-
-
-    </div>
 
     </div>
 </body>

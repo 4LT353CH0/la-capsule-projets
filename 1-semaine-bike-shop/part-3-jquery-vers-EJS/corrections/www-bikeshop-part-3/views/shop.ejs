@@ -36,12 +36,10 @@
             <div class="col-2 col-sm-1">Suppr</div>
         </div>
         <!--loop panier-->
-        
         <% 
         var totalCmd = 0;
         for(var i = 0; i < dataCardBike.length; i++) { 
         totalCmd = totalCmd + dataCardBike[i].quantity * dataCardBike[i].pu;
-            
         %>
         <div class="row card-product">
             <div class="col-5 col-sm-3"><img class="bike-picture" src="<%= dataCardBike[i].img %>"></div>

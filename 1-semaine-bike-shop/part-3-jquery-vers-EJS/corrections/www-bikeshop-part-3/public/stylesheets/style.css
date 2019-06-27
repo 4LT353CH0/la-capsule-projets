@@ -79,3 +79,16 @@ h1 {
     padding: 1em 1em 3em 1em;
     margin: 0 0 0 auto;
 }
+.input-pu{
+    
+}
+.input-pu label{
+    width: :5%;
+}
+.input-pu input{
+    
+}
+.btn{
+    margin-left: auto;
+    margin-right: 20px;
+}
